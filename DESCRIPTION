@@ -1,0 +1,17 @@
+Package: rk.googlesheets4
+Type: Package
+Title: An RKWard plugin package for google sheet manipulation using the
+        'googlesheets4' library.
+Version: 0.0.1
+Date: 2025-12-15
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: An RKWard plugin package for google sheet manipulation
+        using the 'googlesheets4' library.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.googlesheets4
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))

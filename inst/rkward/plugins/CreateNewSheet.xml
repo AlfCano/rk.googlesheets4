@@ -1,0 +1,27 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="CreateNewSheet.js" />
+	<help file="CreateNewSheet.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Create New Google Sheet">
+		<column id="clm_inptlblNSS">
+			<input label="Name for new Sheet" id="create_name" />
+			<saveobject label="Save sheet metadata as" checkable="true" checked="true" initial="ss_new" id="create_save_obj" />
+		</column>
+	</dialog>
+</document>

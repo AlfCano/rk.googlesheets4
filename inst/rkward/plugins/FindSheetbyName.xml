@@ -1,0 +1,27 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="FindSheetbyName.js" />
+	<help file="FindSheetbyName.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Find Google Sheet">
+		<column id="clm_inptlbSSNS">
+			<input label="Search pattern (Sheet Name)" id="find_pattern" />
+			<saveobject label="Save found metadata as" checkable="true" checked="true" initial="ss" id="find_save_obj" />
+		</column>
+	</dialog>
+</document>

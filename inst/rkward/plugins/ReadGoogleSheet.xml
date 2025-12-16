@@ -1,0 +1,43 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="ReadGoogleSheet.js" />
+	<help file="ReadGoogleSheet.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Read Google Sheet">
+		<row id="row_vSTSOURLID">
+			<varselector id="read_selector" />
+			<column id="clm_rSTSOURLID">
+				<radio id="read_source_type" label="Source Type">
+					<option label="Sheet Object (ss)" value="obj" checked="true" />
+					<option label="URL or ID (String)" value="url" />
+				</radio>
+				<varslot id="read_ss_obj" label="Select 'ss' Object" source="read_selector" />
+				<input label="Paste URL or ID" id="read_url_text" />
+				<stretch />
+				<dropdown id="read_func" label="Function">
+					<option label="read_sheet()" value="read_sheet" checked="true" />
+					<option label="range_read()" value="range_read" />
+				</dropdown>
+				<input label="Sheet (Name or Index)" id="read_sheet_arg" />
+				<input label="Range (e.g., 'A1:B4')" id="read_range_arg" />
+				<checkbox id="read_fix_lists" label="Convert mixed 'List' columns to Text (keep others as is)" value="1" />
+				<saveobject label="Save data to R" checkable="true" checked="true" initial="my_sheet_data" id="read_save_obj" />
+			</column>
+		</row>
+	</dialog>
+</document>

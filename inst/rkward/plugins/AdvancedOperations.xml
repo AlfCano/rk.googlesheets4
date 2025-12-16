@@ -1,0 +1,38 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="AdvancedOperations.js" />
+	<help file="AdvancedOperations.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Advanced Sheet Operations">
+		<row id="row_vSOAADRWRF">
+			<varselector id="adv_selector" />
+			<column id="clm_vSOAADRWRF">
+				<varslot id="adv_ss" label="Sheet Object (ss)" source="adv_selector" required="true" />
+				<dropdown id="adv_action" label="Action">
+					<option label="Append Data (sheet_append)" value="sheet_append" checked="true" />
+					<option label="Range Write (range_write)" value="range_write" />
+					<option label="Range Flood (range_flood)" value="range_flood" />
+					<option label="Range Clear (range_clear)" value="range_clear" />
+				</dropdown>
+				<varslot id="adv_df" label="Data (for append/write)" source="adv_selector" />
+				<input label="Sheet Name (optional)" id="adv_sheet" />
+				<input label="Range (optional)" id="adv_range" />
+			</column>
+		</row>
+	</dialog>
+</document>

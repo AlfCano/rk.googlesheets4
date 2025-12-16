@@ -1,0 +1,27 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="GetMetadatafromURL.js" />
+	<help file="GetMetadatafromURL.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Get Sheet Metadata">
+		<column id="clm_inpSURLIDS">
+			<input label="Sheet URL or ID" id="get_url" />
+			<saveobject label="Save sheet metadata as" checkable="true" checked="true" initial="cals" id="get_save_obj" />
+		</column>
+	</dialog>
+</document>

@@ -1,0 +1,36 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="Authenticate.js" />
+	<help file="Authenticate.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Authenticate Google Services">
+		<column id="clm_txT4NAT4NA">
+			<text id="txt_Thspl4NA">
+				This plugin will load 'googledrive' and 'googlesheets4' libraries and initiate authentication.
+				<br>
+					<br>
+						<b>
+							Note:
+						</b>
+						A browser window may open to request permissions.
+					</br>
+				</br>
+			</text>
+		</column>
+	</dialog>
+</document>

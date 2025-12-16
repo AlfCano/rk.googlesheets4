@@ -1,0 +1,197 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="Authenticate"
+	id="Authenticate_rkward"
+	po_id="Authenticate_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.googlesheets4"
+		shortinfo="An RKWard plugin package for google sheet manipulation using the 'googlesheets4' library."
+		longinfo="An RKWard plugin package for google sheet manipulation using the 'googlesheets4' library."
+		version="0.0.1"
+		releasedate="2025-12-15"
+		url="https://github.com/AlfCano/rk.googlesheets4"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_AuthenticateFindSheetbyNm"
+			label="Find Sheet by Name"
+			type="standard"
+			file="plugins/FindSheetbyName.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateGetMtdtfrmURL"
+			label="Get Metadata from URL"
+			type="standard"
+			file="plugins/GetMetadatafromURL.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateWriteDatatSht"
+			label="Write Data to Sheet"
+			type="standard"
+			file="plugins/WriteDatatoSheet.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateReadGoogleSht"
+			label="Read Google Sheet"
+			type="standard"
+			file="plugins/ReadGoogleSheet.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateCreateNewShet"
+			label="Create New Sheet"
+			type="standard"
+			file="plugins/CreateNewSheet.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateAdvancdOprtns"
+			label="Advanced Operations"
+			type="standard"
+			file="plugins/AdvancedOperations.xml"
+		>
+		</component>
+		<component
+			id="cmp_AuthenticateAuthenticate"
+			label="Authenticate"
+			type="standard"
+			file="plugins/Authenticate.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateFindSheetbyNm"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateGetMtdtfrmURL"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateWriteDatatSht"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateReadGoogleSht"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateCreateNewShet"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateAdvancdOprtns"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="GoogleSheetsgooglesheets4"
+				label="Google Sheets (googlesheets4)"
+			>
+				<entry
+					component="cmp_AuthenticateAuthenticate"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

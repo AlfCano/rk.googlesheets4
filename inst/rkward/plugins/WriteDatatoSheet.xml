@@ -1,0 +1,31 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="WriteDatatoSheet.js" />
+	<help file="WriteDatatoSheet.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Write Data to Sheet">
+		<row id="row_vDTSONDTSO">
+			<varselector id="write_selector" />
+			<column id="clm_vrsltDTSON">
+				<varslot id="write_df" label="Dataframe to write" source="write_selector" required="true" />
+				<varslot id="write_ss" label="Target Sheet Object (ss)" source="write_selector" required="true" />
+				<input label="Name of the sheet (tab)" id="write_sheet_name" />
+			</column>
+		</row>
+	</dialog>
+</document>
