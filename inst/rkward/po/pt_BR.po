@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.googlesheets4 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-03-25 09:49-0600\n"
+"PO-Revision-Date: 2026-03-25 09:49-0600\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "data"
+msgstr "Dados"
+
+msgid "Google Sheets (googlesheets4)"
+msgstr "Google Sheets (googlesheets4)"
+
+msgid "Google Sheets Authentication"
+msgstr "Autenticação do Google Sheets"
+
+msgid "Authenticates the R session with Google Drive and Google Sheets services."
+msgstr "Autentica a sessão do R com os serviços Google Drive e Google Sheets."
+
+msgid "Click Submit to load libraries and trigger the authentication flow in your web browser."
+msgstr "Clique em Enviar para carregar as bibliotecas e acionar o fluxo de autenticação no seu navegador web."
+
+msgid "This plugin will load 'googledrive' and 'googlesheets4' libraries and initiate authentication.<br><br><b>Note:</b> A browser window may open to request permissions."
+msgstr "Este plugin carregará as bibliotecas 'googledrive' e 'googlesheets4' e iniciará a autenticação.<br><br><b>Nota:</b> Uma janela do navegador pode se abrir para solicitar permissões."
+
+msgid "Authenticate Google Services"
+msgstr "Autenticar Serviços do Google"
+
+msgid "Find Google Sheet"
+msgstr "Encontrar Google Sheet"
+
+msgid "Search pattern (Sheet Name)"
+msgstr "Padrão de pesquisa (Nome da Planilha)"
+
+msgid "Save found metadata as"
+msgstr "Salvar metadados encontrados como"
+
+msgid "Find Sheet by Name"
+msgstr "Encontrar Planilha por Nome"
+
+msgid "Get Sheet Metadata"
+msgstr "Obter Metadados da Planilha"
+
+msgid "Sheet URL or ID"
+msgstr "URL ou ID da Planilha"
+
+msgid "Save sheet metadata as"
+msgstr "Salvar metadados da planilha como"
+
+msgid "Get Metadata from URL"
+msgstr "Obter Metadados a partir da URL"
+
+msgid "Write Data to Sheet"
+msgstr "Escrever Dados na Planilha"
+
+msgid "Dataframe to write"
+msgstr "Data frame para escrever"
+
+msgid "Target Sheet Object (ss)"
+msgstr "Objeto Planilha de Destino (ss)"
+
+msgid "Name of the sheet (tab)"
+msgstr "Nome da planilha (guia)"
+
+msgid "Read Google Sheet"
+msgstr "Ler Google Sheet"
+
+msgid "Source Type"
+msgstr "Tipo de Origem"
+
+msgid "Sheet Object (ss)"
+msgstr "Objeto Planilha (ss)"
+
+msgid "URL or ID (String)"
+msgstr "URL ou ID (String)"
+
+msgid "Select 'ss' Object"
+msgstr "Selecionar Objeto 'ss'"
+
+msgid "Paste URL or ID"
+msgstr "Colar URL ou ID"
+
+msgid "Sheet (Name or Index)"
+msgstr "Planilha (Nome ou Índice)"
+
+msgid "Range (e.g., 'A1:B4')"
+msgstr "Intervalo (ex., 'A1:B4')"
+
+msgid "Convert mixed 'List' columns to Text (keep others as is)"
+msgstr "Converter colunas 'Lista' mistas para Texto (manter as outras como estão)"
+
+msgid "Function"
+msgstr "Função"
+
+msgid "read_sheet()"
+msgstr "read_sheet()"
+
+msgid "range_read()"
+msgstr "range_read()"
+
+msgid "Save data to R"
+msgstr "Salvar dados no R"
+
+msgid "Create New Google Sheet"
+msgstr "Criar Nova Google Sheet"
+
+msgid "Name for new Sheet"
+msgstr "Nome para a nova Planilha"
+
+msgid "Create New Sheet"
+msgstr "Criar Nova Planilha"
+
+msgid "Advanced Sheet Operations"
+msgstr "Operações Avançadas na Planilha"
+
+msgid "Data (for append/write)"
+msgstr "Dados (para adicionar/escrever)"
+
+msgid "Sheet Object (ss)"
+msgstr "Objeto Planilha (ss)" 
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Append Data (sheet_append)"
+msgstr "Adicionar Dados (sheet_append)"
+
+msgid "Range Write (range_write)"
+msgstr "Escrever no Intervalo (range_write)"
+
+msgid "Range Flood (range_flood)"
+msgstr "Inundar Intervalo (range_flood)"
+
+msgid "Range Clear (range_clear)"
+msgstr "Limpar Intervalo (range_clear)"
+
+msgid "Sheet Name (optional)"
+msgstr "Nome da Planilha (opcional)"
+
+msgid "Range (optional)"
+msgstr "Intervalo (opcional)"
+
+msgid "Advanced Operations"
+msgstr "Operações Avançadas"
+
+msgid "Authenticate"
+msgstr "Autenticar"

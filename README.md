@@ -1,8 +1,11 @@
 # rk.googlesheets4: Google Sheets Tools for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.1-blue.svg)
-![License](https://img.shields.io/badge/License-GPL--3-green.svg)
-![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
+![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
+[![R Linter](https://github.com/AlfCano/rk.googlesheets4/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.googlesheets4/actions/workflows/lintr.yml)
+![AI Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=googlegemini&logoColor=white)
+
 
 This package provides a suite of RKWard plugins that create a graphical user interface for the popular `googlesheets4` R package. It is designed to bridge the gap between desktop RKWard sessions and cloud-based Google Sheets, allowing for authentication, reading, writing, and management of sheets without needing to memorize API functions.
 
@@ -35,6 +38,17 @@ This package installs a new submenu in RKWard: **Data > Google Sheets (googleshe
     *   `range_write()`: Write data to a specific cell range.
     *   `range_flood()`: Fill a range with a single value.
     *   `range_clear()`: Clear data from a specific range.
+    
+## 🌍 Internationalization
+
+The interface is fully localized to match your RKWard language settings:
+
+*   🇺🇸 **English** (Default)
+*   🇪🇸 **Spanish** (`es`)
+*   🇫🇷 **French** (`fr`)
+*   🇩🇪 **German** (`de`)
+*   🇧🇷 **Portuguese** (Brazil) (`pt_BR`)
+
 
 ## Requirements
 

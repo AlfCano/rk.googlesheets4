@@ -2,8 +2,8 @@ Package: rk.googlesheets4
 Type: Package
 Title: An RKWard plugin package for google sheet manipulation using the
         'googlesheets4' library.
-Version: 0.0.1
-Date: 2025-12-15
+Version: 0.0.2
+Date: 2026-04-23
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
 Enhances: rkward

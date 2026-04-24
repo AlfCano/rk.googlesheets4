@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.googlesheets4 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-03-25 09:49-0600\n"
+"PO-Revision-Date: 2026-03-25 09:49-0600\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "data"
+msgstr "Datos"
+
+msgid "Google Sheets (googlesheets4)"
+msgstr "Google Sheets (googlesheets4)"
+
+msgid "Google Sheets Authentication"
+msgstr "Autenticación de Google Sheets"
+
+msgid "Authenticates the R session with Google Drive and Google Sheets services."
+msgstr "Autentica la sesión de R con los servicios de Google Drive y Google Sheets."
+
+msgid "Click Submit to load libraries and trigger the authentication flow in your web browser."
+msgstr "Haz clic en Enviar para cargar las bibliotecas e iniciar el flujo de autenticación en tu navegador web."
+
+msgid "This plugin will load 'googledrive' and 'googlesheets4' libraries and initiate authentication.<br><br><b>Note:</b> A browser window may open to request permissions."
+msgstr "Este plugin cargará las bibliotecas 'googledrive' y 'googlesheets4' e iniciará la autenticación.<br><br><b>Nota:</b> Es posible que se abra una ventana del navegador para solicitar permisos."
+
+msgid "Authenticate Google Services"
+msgstr "Autenticar Servicios de Google"
+
+msgid "Find Google Sheet"
+msgstr "Buscar Google Sheet"
+
+msgid "Search pattern (Sheet Name)"
+msgstr "Patrón de búsqueda (Nombre de la Hoja)"
+
+msgid "Save found metadata as"
+msgstr "Guardar metadatos encontrados como"
+
+msgid "Find Sheet by Name"
+msgstr "Buscar Hoja por Nombre"
+
+msgid "Get Sheet Metadata"
+msgstr "Obtener Metadatos de la Hoja"
+
+msgid "Sheet URL or ID"
+msgstr "URL o ID de la Hoja"
+
+msgid "Save sheet metadata as"
+msgstr "Guardar metadatos de la hoja como"
+
+msgid "Get Metadata from URL"
+msgstr "Obtener Metadatos desde URL"
+
+msgid "Write Data to Sheet"
+msgstr "Escribir Datos en la Hoja"
+
+msgid "Dataframe to write"
+msgstr "Marco de datos a escribir"
+
+msgid "Target Sheet Object (ss)"
+msgstr "Objeto de Hoja de Destino (ss)"
+
+msgid "Name of the sheet (tab)"
+msgstr "Nombre de la hoja (pestaña)"
+
+msgid "Read Google Sheet"
+msgstr "Leer Google Sheet"
+
+msgid "Source Type"
+msgstr "Tipo de Origen"
+
+msgid "Sheet Object (ss)"
+msgstr "Objeto de Hoja (ss)"
+
+msgid "URL or ID (String)"
+msgstr "URL o ID (Cadena)"
+
+msgid "Select 'ss' Object"
+msgstr "Seleccionar Objeto 'ss'"
+
+msgid "Paste URL or ID"
+msgstr "Pegar URL o ID"
+
+msgid "Sheet (Name or Index)"
+msgstr "Hoja (Nombre o Índice)"
+
+msgid "Range (e.g., 'A1:B4')"
+msgstr "Rango (ej., 'A1:B4')"
+
+msgid "Convert mixed 'List' columns to Text (keep others as is)"
+msgstr "Convertir columnas 'Lista' mixtas a Texto (mantener las demás igual)"
+
+msgid "Function"
+msgstr "Función"
+
+msgid "read_sheet()"
+msgstr "read_sheet()"
+
+msgid "range_read()"
+msgstr "range_read()"
+
+msgid "Save data to R"
+msgstr "Guardar datos en R"
+
+msgid "Create New Google Sheet"
+msgstr "Crear Nueva Google Sheet"
+
+msgid "Name for new Sheet"
+msgstr "Nombre de la nueva Hoja"
+
+msgid "Create New Sheet"
+msgstr "Crear Nueva Hoja"
+
+msgid "Advanced Sheet Operations"
+msgstr "Operaciones Avanzadas de Hoja"
+
+msgid "Data (for append/write)"
+msgstr "Datos (para adjuntar/escribir)"
+
+msgid "Sheet Object (ss)"
+msgstr "Objeto de Hoja (ss)"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Append Data (sheet_append)"
+msgstr "Adjuntar Datos (sheet_append)"
+
+msgid "Range Write (range_write)"
+msgstr "Escribir en Rango (range_write)"
+
+msgid "Range Flood (range_flood)"
+msgstr "Inundar Rango (range_flood)"
+
+msgid "Range Clear (range_clear)"
+msgstr "Limpiar Rango (range_clear)"
+
+msgid "Sheet Name (optional)"
+msgstr "Nombre de la Hoja (opcional)"
+
+msgid "Range (optional)"
+msgstr "Rango (opcional)"
+
+msgid "Advanced Operations"
+msgstr "Operaciones Avanzadas"
+
+msgid "Authenticate"
+msgstr "Autenticar"

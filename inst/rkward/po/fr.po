@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.googlesheets4 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-03-25 09:49-0600\n"
+"PO-Revision-Date: 2026-03-25 09:49-0600\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "data"
+msgstr "Données"
+
+msgid "Google Sheets (googlesheets4)"
+msgstr "Google Sheets (googlesheets4)"
+
+msgid "Google Sheets Authentication"
+msgstr "Authentification Google Sheets"
+
+msgid "Authenticates the R session with Google Drive and Google Sheets services."
+msgstr "Authentifie la session R auprès des services Google Drive et Google Sheets."
+
+msgid "Click Submit to load libraries and trigger the authentication flow in your web browser."
+msgstr "Cliquez sur Soumettre pour charger les bibliothèques et déclencher le flux d'authentification dans votre navigateur Web."
+
+msgid "This plugin will load 'googledrive' and 'googlesheets4' libraries and initiate authentication.<br><br><b>Note:</b> A browser window may open to request permissions."
+msgstr "Ce plugin chargera les bibliothèques 'googledrive' et 'googlesheets4' et lancera l'authentification.<br><br><b>Remarque :</b> Une fenêtre de navigateur peut s'ouvrir pour demander des autorisations."
+
+msgid "Authenticate Google Services"
+msgstr "Authentifier les Services Google"
+
+msgid "Find Google Sheet"
+msgstr "Rechercher une Google Sheet"
+
+msgid "Search pattern (Sheet Name)"
+msgstr "Modèle de recherche (Nom de la Feuille)"
+
+msgid "Save found metadata as"
+msgstr "Enregistrer les métadonnées trouvées sous"
+
+msgid "Find Sheet by Name"
+msgstr "Rechercher une Feuille par Nom"
+
+msgid "Get Sheet Metadata"
+msgstr "Obtenir les Métadonnées de la Feuille"
+
+msgid "Sheet URL or ID"
+msgstr "URL ou ID de la Feuille"
+
+msgid "Save sheet metadata as"
+msgstr "Enregistrer les métadonnées de la feuille sous"
+
+msgid "Get Metadata from URL"
+msgstr "Obtenir les Métadonnées à partir de l'URL"
+
+msgid "Write Data to Sheet"
+msgstr "Écrire des Données dans la Feuille"
+
+msgid "Dataframe to write"
+msgstr "Data frame à écrire"
+
+msgid "Target Sheet Object (ss)"
+msgstr "Objet Feuille Cible (ss)"
+
+msgid "Name of the sheet (tab)"
+msgstr "Nom de la feuille (onglet)"
+
+msgid "Read Google Sheet"
+msgstr "Lire une Google Sheet"
+
+msgid "Source Type"
+msgstr "Type de Source"
+
+msgid "Sheet Object (ss)"
+msgstr "Objet Feuille (ss)"
+
+msgid "URL or ID (String)"
+msgstr "URL ou ID (Chaîne)"
+
+msgid "Select 'ss' Object"
+msgstr "Sélectionner l'Objet 'ss'"
+
+msgid "Paste URL or ID"
+msgstr "Coller l'URL ou l'ID"
+
+msgid "Sheet (Name or Index)"
+msgstr "Feuille (Nom ou Index)"
+
+msgid "Range (e.g., 'A1:B4')"
+msgstr "Plage (ex., 'A1:B4')"
+
+msgid "Convert mixed 'List' columns to Text (keep others as is)"
+msgstr "Convertir les colonnes 'Liste' mixtes en Texte (garder les autres telles quelles)"
+
+msgid "Function"
+msgstr "Fonction"
+
+msgid "read_sheet()"
+msgstr "read_sheet()"
+
+msgid "range_read()"
+msgstr "range_read()"
+
+msgid "Save data to R"
+msgstr "Enregistrer les données dans R"
+
+msgid "Create New Google Sheet"
+msgstr "Créer une Nouvelle Google Sheet"
+
+msgid "Name for new Sheet"
+msgstr "Nom de la nouvelle Feuille"
+
+msgid "Create New Sheet"
+msgstr "Créer une Nouvelle Feuille"
+
+msgid "Advanced Sheet Operations"
+msgstr "Opérations Avancées sur la Feuille"
+
+msgid "Data (for append/write)"
+msgstr "Données (pour ajouter/écrire)"
+
+msgid "Sheet Object (ss)"
+msgstr "Objet Feuille (ss)"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Append Data (sheet_append)"
+msgstr "Ajouter des Données (sheet_append)"
+
+msgid "Range Write (range_write)"
+msgstr "Écrire dans une Plage (range_write)"
+
+msgid "Range Flood (range_flood)"
+msgstr "Remplir une Plage (range_flood)"
+
+msgid "Range Clear (range_clear)"
+msgstr "Effacer une Plage (range_clear)"
+
+msgid "Sheet Name (optional)"
+msgstr "Nom de la Feuille (optionnel)"
+
+msgid "Range (optional)"
+msgstr "Plage (optionnel)"
+
+msgid "Advanced Operations"
+msgstr "Opérations Avancées"
+
+msgid "Authenticate"
+msgstr "Authentifier"

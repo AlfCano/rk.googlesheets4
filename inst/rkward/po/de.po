@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.googlesheets4 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-03-25 09:49-0600\n"
+"PO-Revision-Date: 2026-03-25 09:49-0600\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "data"
+msgstr "Daten"
+
+msgid "Google Sheets (googlesheets4)"
+msgstr "Google Sheets (googlesheets4)"
+
+msgid "Google Sheets Authentication"
+msgstr "Google Sheets Authentifizierung"
+
+msgid "Authenticates the R session with Google Drive and Google Sheets services."
+msgstr "Authentifiziert die R-Sitzung mit den Google Drive- und Google Sheets-Diensten."
+
+msgid "Click Submit to load libraries and trigger the authentication flow in your web browser."
+msgstr "Klicken Sie auf Ausführen, um Bibliotheken zu laden und den Authentifizierungsprozess in Ihrem Webbrowser zu starten."
+
+msgid "This plugin will load 'googledrive' and 'googlesheets4' libraries and initiate authentication.<br><br><b>Note:</b> A browser window may open to request permissions."
+msgstr "Dieses Plugin lädt die Bibliotheken 'googledrive' und 'googlesheets4' und leitet die Authentifizierung ein.<br><br><b>Hinweis:</b> Ein Browserfenster kann geöffnet werden, um Berechtigungen anzufordern."
+
+msgid "Authenticate Google Services"
+msgstr "Google-Dienste Authentifizieren"
+
+msgid "Find Google Sheet"
+msgstr "Google Sheet Finden"
+
+msgid "Search pattern (Sheet Name)"
+msgstr "Suchmuster (Tabellenname)"
+
+msgid "Save found metadata as"
+msgstr "Gefundene Metadaten speichern als"
+
+msgid "Find Sheet by Name"
+msgstr "Tabelle nach Name Finden"
+
+msgid "Get Sheet Metadata"
+msgstr "Tabellen-Metadaten Abrufen"
+
+msgid "Sheet URL or ID"
+msgstr "Tabellen-URL oder ID"
+
+msgid "Save sheet metadata as"
+msgstr "Tabellen-Metadaten speichern als"
+
+msgid "Get Metadata from URL"
+msgstr "Metadaten von URL Abrufen"
+
+msgid "Write Data to Sheet"
+msgstr "Daten in Tabelle Schreiben"
+
+msgid "Dataframe to write"
+msgstr "Zu schreibender Dataframe"
+
+msgid "Target Sheet Object (ss)"
+msgstr "Ziel-Tabellenobjekt (ss)"
+
+msgid "Name of the sheet (tab)"
+msgstr "Name der Tabelle (Reiter)"
+
+msgid "Read Google Sheet"
+msgstr "Google Sheet Lesen"
+
+msgid "Source Type"
+msgstr "Quellentyp"
+
+msgid "Sheet Object (ss)"
+msgstr "Tabellenobjekt (ss)"
+
+msgid "URL or ID (String)"
+msgstr "URL oder ID (Zeichenfolge)"
+
+msgid "Select 'ss' Object"
+msgstr "'ss'-Objekt auswählen"
+
+msgid "Paste URL or ID"
+msgstr "URL oder ID einfügen"
+
+msgid "Sheet (Name or Index)"
+msgstr "Tabelle (Name oder Index)"
+
+msgid "Range (e.g., 'A1:B4')"
+msgstr "Bereich (z. B. 'A1:B4')"
+
+msgid "Convert mixed 'List' columns to Text (keep others as is)"
+msgstr "Gemischte 'Listen'-Spalten in Text konvertieren (andere beibehalten)"
+
+msgid "Function"
+msgstr "Funktion"
+
+msgid "read_sheet()"
+msgstr "read_sheet()"
+
+msgid "range_read()"
+msgstr "range_read()"
+
+msgid "Save data to R"
+msgstr "Daten in R speichern"
+
+msgid "Create New Google Sheet"
+msgstr "Neues Google Sheet Erstellen"
+
+msgid "Name for new Sheet"
+msgstr "Name für neue Tabelle"
+
+msgid "Create New Sheet"
+msgstr "Neue Tabelle Erstellen"
+
+msgid "Advanced Sheet Operations"
+msgstr "Erweiterte Tabellenoperationen"
+
+msgid "Data (for append/write)"
+msgstr "Daten (zum Anhängen/Schreiben)"
+
+msgid "Sheet Object (ss)"
+msgstr "Tabellenobjekt (ss)"
+
+msgid "Action" 
+msgstr "Aktion"
+
+msgid "Append Data (sheet_append)"
+msgstr "Daten Anhängen (sheet_append)"
+
+msgid "Range Write (range_write)"
+msgstr "In Bereich Schreiben (range_write)"
+
+msgid "Range Flood (range_flood)"
+msgstr "Bereich Füllen (range_flood)"
+
+msgid "Range Clear (range_clear)"
+msgstr "Bereich Löschen (range_clear)"
+
+msgid "Sheet Name (optional)"
+msgstr "Tabellenname (optional)"
+
+msgid "Range (optional)"
+msgstr "Bereich (optional)"
+
+msgid "Advanced Operations"
+msgstr "Erweiterte Operationen"
+
+msgid "Authenticate"
+msgstr "Authentifizieren"

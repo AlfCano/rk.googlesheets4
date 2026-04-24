@@ -15,7 +15,7 @@ local({
     ),
     about = list(
       desc = "An RKWard plugin package for google sheet manipulation using the 'googlesheets4' library.",
-      version = "0.0.1",
+      version = "0.0.2", # For franslate files.
       url = "https://github.com/AlfCano/rk.googlesheets4",
       license = "GPL (>= 3)"
     )
